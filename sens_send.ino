@@ -7,8 +7,8 @@
 dht DHT;
 SoftwareSerial Serial1(6, 7); // RX, TX
 
-char ssid[] = "ASUS";        // your network SSID (name)
-char pass[] = "rXq5P12r";    // your network password
+char ssid[] = "xxxxx";        // your network SSID (name)
+char pass[] = "xxxxx";    // your network password
 int status = WL_IDLE_STATUS; // the Wifi radio's status
 
 char server[] = "driftier-operations.000webhostapp.com"; // 92.35.102.95
