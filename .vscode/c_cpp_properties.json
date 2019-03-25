@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/martin/dev/arduino/hardware/**",
+                "/home/martin/dev/arduino/tools/**",
+                "/home/martin/Arduino/libraries/**",
+                "/home/martin/dev/arduino/hardware/arduino/avr/libraries/**"
+            ],
+            "forcedInclude": [
+                "/home/martin/dev/arduino/hardware/arduino/avr/cores/arduino/Arduino.h"
+            ],
+            "browse": {
+                "path": [
+                    "/home/martin/dev/arduino/hardware/arduino/avr/libraries",
+                    "/home/martin/dev/arduino/hardware",
+                    "/home/martin/Arduino/libraries",
+                    "/home/martin/dev/arduino/tools"
+                ]},
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
