@@ -1,6 +1,6 @@
 #include "SoftwareSerial.h"
-#include "WiFiEsp.h"
 #include "dht.h"
+#include "WiFiEsp.h"
 
 #define a_pin A0
 
@@ -30,7 +30,6 @@ void setup()
     Serial1.begin(9600);
 
     wifiConnect();
-
 }
 
 void loop()

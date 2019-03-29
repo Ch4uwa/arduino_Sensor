@@ -1,30 +1,70 @@
 {
     "configurations": [
         {
-            "name": "Linux",
-            "includePath": [
-                "${workspaceFolder}/**",
-                "/home/martin/dev/arduino/hardware/**",
-                "/home/martin/dev/arduino/tools/**",
-                "/home/martin/Arduino/libraries/**",
-                "/home/martin/dev/arduino/hardware/arduino/avr/libraries/**"
-            ],
-            "forcedInclude": [
-                "/home/martin/dev/arduino/hardware/arduino/avr/cores/arduino/Arduino.h"
-            ],
-            "browse": {
-                "path": [
-                    "/home/martin/dev/arduino/hardware/arduino/avr/libraries",
-                    "/home/martin/dev/arduino/hardware",
-                    "/home/martin/Arduino/libraries",
-                    "/home/martin/dev/arduino/tools"
-                ]},
-            "defines": [],
-            "compilerPath": "/usr/bin/clang",
-            "cStandard": "c11",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "clang-x64"
-        }
-    ],
+        "name": "Linux",
+        "includePath": [
+            "${workspaceFolder}/**",
+            "/home/martin/dev/arduino/hardware/**",
+            "/home/martin/dev/arduino/tools/**",
+            "/home/martin/Arduino/libraries/**",
+            "/home/martin/dev/arduino/hardware/arduino/avr/libraries/**"
+        ],
+        "forcedInclude": [
+            "/home/martin/dev/arduino/hardware/arduino/avr/cores/arduino/Arduino.h"
+        ],
+        "browse": {
+            "path": [
+                "/home/martin/dev/arduino/hardware/arduino/avr/libraries",
+                "/home/martin/dev/arduino/hardware",
+                "/home/martin/Arduino/libraries",
+                "/home/martin/dev/arduino/tools"
+            ]
+        },
+        "defines": [],
+        "compilerPath": "/usr/bin/clang",
+        "cStandard": "c11",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "clang-x64"
+    },
+    {
+
+        "name": "Win32",
+        "includePath": [
+            "${workspaceFolder}/**",
+            "C:/Users/mrtnk/Documents/Arduino/libraries/**",
+            "C:/Program Files (x86)/Arduino/tools/**",
+            "C:/Program Files (x86)/Arduino/libraries/**",
+            "C:/Program Files (x86)/Arduino/hardware/arduino/avr/**",
+            "C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/**",
+            "C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/**",
+            "C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr/**",
+            "C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/**"
+
+        ],
+        "forcedInclude": [
+            "C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/Arduino.h"
+        ],
+        "defines": [
+            "_DEBUG",
+            "UNICODE",
+            "_UNICODE"
+        ],
+        "browse": {
+            "path": [
+                "C:/Users/mrtnk/Documents/Arduino/libraries",
+                "C:/Program Files (x86)/Arduino/tools",
+                "C:/Program Files (x86)/Arduino/libraries",
+                "C:/Program Files (x86)/Arduino/hardware/arduino/avr",
+                "C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries",
+                "C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include",
+                "C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino"
+            ]
+        },
+        "compilerPath": "C:/mingw32/bin/gcc.exe",
+        "cStandard": "c11",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "gcc-x64"
+    }
+],
     "version": 4
 }
