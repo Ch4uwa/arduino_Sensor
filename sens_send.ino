@@ -30,17 +30,17 @@ void setup()
     Serial1.begin(9600);
 
     wifiConnect();
-    printWifiStatus();
 
-    DHT.read11(a_pin);
-    delay(1000);
-    h = DHT.humidity;
-    t = DHT.temperature;
 }
 
 void loop()
 {
+    if (status != WL_CONNECTED) {
+        status = WiFi.begin(ssid, pass);
+    }
+
     readSens();
+    delay(1000);
     serverSend();
     delay(300000);
 }
@@ -70,6 +70,8 @@ void wifiConnect()
 
     // you're connected now, so print out the data
     Serial.println("You're connected to the network");
+
+    printWifiStatus();
 }
 
 void readSens()
@@ -84,7 +86,6 @@ void readSens()
         t = DHT.temperature;
     }
     data = "temp1=" + t + "&hum1=" + h + "&name=Martin";
-    Serial.println(data);
 }
 
 void serverSend()
